@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0 0 0 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #EDEDED;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.column-left {
+    /* background-color: #2B4865; */
+    background-color: #112B3C;
+    color: whitesmoke;
+    height: 100vh;
+    width: 26%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column-middle {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.about-me-h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-me-text {
+    width: 60%;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.profile-image {
+    margin-top: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.contact-me {
+    padding-top: 50px;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.email-png {
+    height: 64px;
+    width: auto;
+    border-radius: 10px;
+    transition: transform 250ms;
+}
+
+.email-png:hover {
+    transform: translateY(-10px);
+}
+
+.github-png {
+    height: 66px;
+    width: auto;
+    border-radius: 10px;
+    transition: transform 250ms;
+}
+
+.github-png:hover {
+    transform: translateY(-10px);
+}
+
+.facebook-png {
+    transition: transform 250ms;
+}
+
+.facebook-png:hover {
+    transform: translateY(-10px);
+}
+
+.instagram-png {
+    transition: transform 250ms;
+}
+
+.instagram-png:hover {
+    transform: translateY(-10px);
+}
+
+hr {
+    width: 80%;
+}
+
+.name {
+    font-size: 50px;
+    padding-left: 21%;
+}
+
+.study-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.study-left {
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.study-right {
+    padding-left: 500px;
+}
+
+.prog-lang {
+    width: 400px;
+    padding-left: 30%;
+}
+
+
+
+.column-right {
+    display: flex;
+    justify-content: center;
+}
+
+.study-left {
+    position: absolute;
+    margin-right: 50px;
+}
+
+.column-right {
+    height: 100vh;
+    display: flex;
+    width: 1420px;
+    flex-direction: column; 
+    padding-left: 100px;
+}
+
+.box1 {
+    /* border: 1px solid black; */
+    height: 234px;
+}
+.box2 {
+    /* border: 1px solid black; */
+    height: 234px;
+}
+.box3 {
+    /* border: 1px solid black; */
+    height: 234px;
+    
+    
+}
+.box4 {
+    /* border: 1px solid black; */
+    height: 234px;
+    display: flex;
+} 
+
+.prog-lang {
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+
+.java {
+    padding-bottom: 20px;
+
+}
+
+.sql {
+    padding-bottom: 20px;
+
+}
+
+
+.study-right {
+    width: 350px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.my-experience {
+    padding-left: 50px;
+    padding-top: 70px;
+
+}
+
+.list {
+    padding-left: 500px;
+    padding-top: 50px;
+
+}
+
+.studies {
+    padding-left: 120px;
+    padding-top: 70px;
+}
+
+.studies-list {
+    padding-left: 600px;
+    padding-top: 70px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+li {
+    font-size: large;
+}

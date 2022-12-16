@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #851b1a;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    width: 500px;
+    height: 55vh;
+    border: 6px solid #3881ba;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.content-box {
+    padding: 40px;
+    padding-left: 65px;
+    padding-top: 50px;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 23px;
+    font-size:large;
+}
+
+.content-email, .content-password, .content-connect, .content-create-account {
+    padding-bottom: 25px;
+}
+
+.email, .password {
+    height: 70px;
+    border-radius: 20px;
+    width: 75%;
+    padding-left: 60px;
+    font-size: large;
+}
+
+
+.connect-button {
+    width: 60%;
+    height: 63px;
+    border-radius:20px;
+    font-size:medium;
+    font-weight:500;
+    background-color: #8fcfec;
+}
+
+.create-account-text {
+    font-size: 125%;
+}
+
+img {
+    width: 48px;
+    height:auto;
+    position:absolute;
+    padding-top: 10px;
+}
+
+
+::-webkit-input-placeholder {
+    font-size:medium;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+  }
