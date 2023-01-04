@@ -9,67 +9,67 @@
 <body>
     <form>
         
-        <h1>Φόρμα πληρωμής</h1>
-        <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr></p>
-        <h2>Προσωπικά Στοιχεία</h2>
+        <h1 tabindex="0">Φόρμα πληρωμής</h1>
+        <p tabindex="0">Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr></p>
+        <h2 tabindex="0">Προσωπικά Στοιχεία</h2>
 
         <fieldset style="width: 200px;">
-            <legend>Title</legend>
+            <legend tabindex="0">Title</legend>
             <div>
                 <input type="radio" name="title" id="mr" value="mr">
-                <label for="mr">Mr.</label>
+                <label for="mr" tabindex="0">Mr.</label>
             </div>
 
             <div>
                 <input type="radio" name="title" id="mrs" value="mrs">
-                <label for="mrs">Mrs.</label>
+                <label for="mrs" tabindex="0">Mrs.</label>
             </div>
 
             <div>
                 <input type="radio" name="title" id="dr" value="dr">
-                <label for="dr">Dr.</label>
+                <label for="dr" tabindex="0">Dr.</label>
             </div>
         </fieldset>
 
         <div>
-            <label for="name">Name:<abbr title="Required field">*</abbr></label>
+            <label for="name" tabindex="0">Name:<abbr title="Required field">*</abbr></label>
             <input type="text" name="name" id="name" required>
         </div>
 
         <div>
-            <label for="email">E-mail:<abbr title="Required field">*</abbr></label>
+            <label for="email" tabindex="0">E-mail:<abbr title="Required field">*</abbr></label>
             <input type="email" name="email" id="email" required>
         </div>
 
         <div>
-            <label for="password">Password:<abbr title="Required field">*</abbr></label>
+            <label for="password" tabindex="0">Password:<abbr title="Required field">*</abbr></label>
             <input type="password" name="password" id="password" required>
         </div>
 
 
-        <h2>Πληροφορίες Πληρωμής</h2>
+        <h2 tabindex="0">Πληροφορίες Πληρωμής</h2>
 
         <div>
-            <label for="card-type">Card type:</label>
+            <label for="card-type" tabindex="0">Card type:</label>
             <select name="card-type" id="card-type">
-                <option value="1">Visa</option>
-                <option value="2">MasterCard</option>
-                <option value="3">PayPal</option>
+                <option value="1" tabindex="0">Visa</option>
+                <option value="2" tabindex="0">MasterCard</option>
+                <option value="3" tabindex="0">PayPal</option>
             </select>
         </div>
 
         <div>
-            <label for="card-number">Card number:<abbr title="Required field">*</abbr></label>
+            <label for="card-number" tabindex="0">Card number:<abbr title="Required field">*</abbr></label>
             <input type="number" name="card-number" id="card-number" required>
         </div>
 
         <div>
-            <label for="expiration-date">Expiration date:<abbr title="Required field">*</abbr></label>
+            <label for="expiration-date" tabindex="0">Expiration date:<abbr title="Required field">*</abbr></label>
             <input type="text" name="expiration-date" id="expiration-date"
              placeholder="MM/YY" maxlength="5" required>
         </div>
 
-        <button type="submit">Προχωρήστε στην πληρωμή</button>
+        <button type="submit" tabindex="0">Προχωρήστε στην πληρωμή</button>
 
 
 
