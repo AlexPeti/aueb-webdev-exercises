@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="./notepad.css">
+    <script src="./notepad.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span id="date-time"></span>
+        </div>
+        <div class="main"></div>
+        <div class="footer">
+            <input type="text" id="noteText" placeholder="Insert note...">
+            <button class="btn" type="button">+</button>
+        </div>
+    </div>
+
+    <div class="row hidden">
+        <div class="chklbl">
+            <input type="checkbox" id="inputChkbox">
+            <label class="lbl" for=""></label>
+        </div>
+        <button class="x-button" type="button">X</button>
+    </div>
+</body>
+</html>
